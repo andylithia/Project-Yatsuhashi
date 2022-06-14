@@ -1,0 +1,110 @@
+Spiral Data Type
+----+---------+-----------------------------
+ΔAdr| Type    | Content
+----+---------+-----------------------------
+000 | CHAR*   | ID of the Element
+004 |         |
+008 |         |
+00c |         |
+010 |         |
+014 |         |
+018 |         |
+01c |         |
+020 |         |
+024 |         |
+028 |         |
+02c |         |
+030 |         |
+034 |         |
+038 |         |
+03c |         |
+040 |         |
+044 |         |
+048 |         |
+04c |         |
+050 | INT     | Element Type: 00:sqSp 01:sp 02:wire 03: dwTfm 04:cap 05:dwTfm 14:via 16:symSqSp 17:symPolySp 18:MMSqSp 19:user
+054 | DOUBLE  | ORG X
+058 | /       | /
+05c | DOUBLE  | ORG Y
+060 | /       | /
+064 | INT     | Via Nx ?, Number of Poly Elements
+068 | INT     | Cap Top Layer
+06c | INT     | Cap Bottom Layer / Via Ny ?
+070 | DOUBLE  | L
+074 | /       | /
+078 | DOUBLE  | L2
+07c | /       | /
+080 | DOUBLE  | R
+084 | /       | /
+088 | DOUBLE  | W
+08c | /       | /
+090 | DOUBLE  | S
+094 | /       | /
+098 | DOUBLE  | N
+09c | /       | /
+0a0 | DOUBLE  | ORIENTATION
+0a4 | /       | /
+0a8 |         | Beginning of the actual record
+0ac |         |
+0b0 | DW      | var "head" when the elements is created
+0b4 | CHAR*   | ID of Transformer 2nd Winding 
+0b8 |         |
+0bc |         |
+0c0 |         |
+0c4 |         |
+0c8 |         |
+0cc |         |
+0d0 |         |
+0d4 |         |
+0d8 |         |
+0dc |         |
+0e0 |         |
+0e4 |         |
+0e8 |         |
+0ec |         |
+0f0 |         |
+0f4 |         |
+0f8 |         |
+0fc |         |
+100 |         |
+104 |         |
+108 |         |
+10c |         |
+110 |         |
+114 |         |
+118 |         |
+11c |         |
+120 |         |
+124 |         |
+128 |         |
+12c |         |
+130 |         |
+134 |         |
+138 |         |
+13c |         |
+140 |         |
+144 |         |
+148 |         |
+14c |         |
+150 |         |
+154 |         |
+158 |         |
+15c |         |
+160 |         |
+164 |         |
+168 |         |
+16c |         |
+170 |         |
+174 |         |
+178 |         |
+17c |         |
+180 |         |
+184 |         |
+188 |         |
+18c |         |
+190 |         |
+194 |         |
+198 |         |
+19c |         |
+1a0 |         |
+1a4 |         |
